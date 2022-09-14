@@ -1,14 +1,63 @@
 ######### Day 1 ################
 
-ServoceNow Testing
+ServiceNow Testing
 
-### What is Software Testing?
+### Benefits of Software Testing?
 
--It is a part of Software development Life Cycle(SDLC)
+-It is a part of the Software development Life Cycle(SDLC)
 -It improves the quality of Software
 -It helps in delivering in time
 -It ensures that the project is done within the budget
--It helps ensures in meeting the requirements
+-It helps ensures meeting the requirements
 -It helps in providing a maintainable software
+
+### Types of Software Testing
+1. Manual testing - In this kind of testing the tester behaves like the end user
+    and finds the flaws in the software as an end user.
+2. Automation Testing - 
+
+
+### Common Terms in Testing
+
+1. Error: These are human mistakes
+2. Bug/Defect: If some features are not working properly 
+3. Failure: Failure happens on the user's end
+
+Bug is from the programmer's perspective. Whereas Failure is from the end user's perspective.
+
+## Why is Software Testing Important?
+
+1. One of the principles of quality control is to get things right the first time.
+    ST helps in acheiving that by ensuring the product developed is appropriate according to the requirements
+
+2. It enhances the brand's image in the mind of end users
+
+3. First impression is the last impression, and if the first impression is of a buugy software
+    the user won't be very inclinded in using the software
+
+4. Helps in providing a better user experience towards the user.
+
+5. Saves the overhead costs of maintainance of the software
+
+6. Helps in ensuring that various componets work together in well.
+
+7. Helps to find, what are the possible risks associated with the software and to find 
+    what are the limitations of the software
+        specifically: Risks Imposed by the use of software.
+
+8. Provides assuarance to the consumer that the application has been properly tested and is secur
+    Warranty
+    - Secure enough ?
+    - Avaiable enough ?
+    - Capacity enough ?
+    - Continuoues enough?
+
+9. Helps to ensure that the performance is optimal.
+
+10. While Developing a software or a piece of code. That code can have impact on many people's life
+    Software Testing ensures that this impact created by the piece of code doesn't cause harm to the users and other stakeholders
+
+
+
 
 
