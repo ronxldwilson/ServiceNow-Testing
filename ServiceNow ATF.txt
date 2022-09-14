@@ -1,0 +1,14 @@
+######### Day 1 ################
+
+ServoceNow Testing
+
+### What is Software Testing?
+
+-It is a part of Software development Life Cycle(SDLC)
+-It improves the quality of Software
+-It helps in delivering in time
+-It ensures that the project is done within the budget
+-It helps ensures in meeting the requirements
+-It helps in providing a maintainable software
+
+
