@@ -58,6 +58,201 @@ Bug is from the programmer's perspective. Whereas Failure is from the end user's
     Software Testing ensures that this impact created by the piece of code doesn't cause harm to the users and other stakeholders
 
 
+## Who will be involved in what stage?
+
+1. Requirements Elicitation: The diffrent stakeholders will be involver
+2. Designing: System Architects, and Developers
+3. Development: Developers
+4. Testing: Testers
+5. Maintainance: Developers 
+
+## Software Requirements Specification:
+
+1. The User should be able to login to the platform securely.
+    - There should be an option to reset the password
+
+2. There should be an option to onbaord new users
+
+3. the User should be able to send emails to the intended user on the same platform and other 
+platforms by using their respective IDs in a secure manner
+
+4. The user should be able to search thru the emails which they have sent or recived
+
+5. The user should be able to access it thru any of the browsers and mobile devices
+
+6. Notifications should be sent on recieving of a new email in the respectice devices
 
 
+## Diffrent Types of SDLC
+
+1. WaterFall Model: A software development model in which all the 
+2. V model:
+3. Incremental Model
+4. RAD Model
+5. Agile Model
+6. Spiral model
+7. Iterative Model
+
+
+## WaterFall Model
+
+Advantages:
+    1. if the project is small and there is low chances of requirements changing then going forward
+    with WaterFall model is the best choice
+    2. Easy to implement in small teams and projects of small sclaes, in which the Requirements
+    are well understood.
+    3. Ample resources with required expertise are freely available.
+    4. Technology is well understood
+    5. There should be no amnbiguos requirements
+
+Disadvantage:
+    1. There is no scope for changes in the requirements as soon as we move to the next stage
+    2. The end users don't get to see the final producat untill deployment period
+    3. Extensive documentation is required before starting the project.
+    4. Implementing feedback is expensive and time consuming.
+    5. 
+
+## Spiral Model
+
+It is an evolutionary software process model which is an iterative nature of prototyping 
+and systematic aspects of traditional WaterFall model.
+Good for product based companies
+
+Here you can go back to the previous stage
+Barry Bohen first defined the this model in 1988
+
+## When to use 
+    -when the requirements are changing 
+
+Phases of water Fall model
+1. Plan Phases
+2. Risk Analysis: All possible alternatives are analyzed 
+3. Enginneering: 
+4. Customer Evaluvation
+
+
+## Advantages of Spiral Model
+1. High amount of risk analysis hence, avoidance of Risk is enhanced.
+2. Good for large and mission-critical projects.
+3. Strong approval and documentation control.
+4. Additional Functionality can be added at a later date.
+5. Software is produced early in the software life cycle.
+
+## Disadvantages of Spiral Model 
+1. Can be a costly model to use.
+2. Risk analysis requires highly specific expertise.
+3. Project’s success is highly dependent on the risk analysis phase.
+4. Doesn’t work well for smaller projects.
+
+# When to use Spiral model?
+1. When costs and risk evaluation is important
+2. For medium to high-risk projects
+3. Long-term project commitment unwise because of potential changes to economic priorities
+4. Users are unsure of their needs
+5. Requirements are complex
+6 .New product line
+7. Significant changes are expected (research and exploration)
+
+## V Model
+It is aka Verifciation and Validation model
+
+
+    Requirements Analysis                           Acceptance Testing      //Acceptance Testing
+
+        System Design                           System Testing              //System Test Design
+
+            Architecture                    Integration Testing             //Integration Testing
+
+                Module Design           Unit Testing                        //unit testing Design
+
+                                Coding
+
+## The Next phase starts only after completion of the preveious step
+        
+## Static Testing: Testing the project related documents(reviewing the document,walkthrough and inspection)
+1. WhiteBox testing
+2. BlackBox Testing
+
+## Dynamic Testing: This is the actual testing 
+1. Unit Testing
+2. Integration Testing 
+3. Sysetem Testing 
+4. UAT
+
+
+# what is Verifciation?
+
+Verifciation checks whether we are building the right product or not
+Focueses on documentation
+typically involves reviewing,walkthrough and inspection
+
+# what is Validation?
+Validation checks whether we are building the product or not.
+t
+# What kind of companies which use V model
+
+# Advantages
+ 
+•	This is a highly disciplined model and Phases are completed one at a time.
+•	V-Model is used for small projects where project requirements are clear.
+•	Simple and easy to understand and use.
+•	This model focuses on verification and validation activities early in the life cycle 
+    thereby enhancing the   probability of building an error-free and good quality product.
+•	It enables project management to track progress accurately.
+
+# Disadvantages: 
+ 
+•	High risk and uncertainty.
+•	It is not a good for complex and object-oriented projects.
+•	It is not suitable for projects where requirements are not clear and contains high risk of changing.
+•	This model does not support iteration of phases.
+•	It does not easily handle concurrent events.
+
+
+## Agile Model
+????
+
+
+## Software Testing Life Cycles
+
+1. Requirements Analysis:
+    QA interacts with Stakeholders like Client, Business Analyst, System Anal;yst, Technical Lead.
+    Important Descision of what all tests will be performed
+2. Test Planning: It is document which contains the plan related to all testing 
+    Senior QA Manager determines the test plan strategy
+    The focus is on:
+        What to Test
+        What cannot be tested
+        Tools used for Testing
+        resources
+        Test Duration 
+        Riska and Contingency Planning
+
+3. Test Case Development: Testing team write down all the test cases
+    Prepare test Data 
+    Test cases are reviewe3d by QA Lead
+    Requirement Tracibility Matrix is prepared. The RTM is an industry accpted format for tracking requirements
+    We can track backward and forward Tracibility
+    OOB Thinking - Thinking outside of the box
+
+4. Environment Setup:  Once the test case set is ready. The environment is Setup    
+    For Example: Tools are decideded
+        Selenium
+        ATF for Seleneum
+        QTP
+        RPA
+
+5. Test Execution: THe testers will carry out the testing based on the test plans and the test cases prepared   
+    Bugs are reported to teh development team and then they resolve it
+
+6. Test Closure: This is done mostly after the product is delivered
+    Mainly comprises of:
+    Ensure Test completion
+    Handover Test Artifcats
+    Project Retrospectives
+
+## Selenium
+
+It is browser optimised for framework that is commonly used for writing end to end test for Web Applicaiton
+ServiceNow Can be tested using Selenium, but we use ATF for testing
 
