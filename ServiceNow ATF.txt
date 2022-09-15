@@ -256,3 +256,45 @@ t
 It is browser optimised for framework that is commonly used for writing end to end test for Web Applicaiton
 ServiceNow Can be tested using Selenium, but we use ATF for testing
 
+############# Day 2 #############
+
+
+#Unit Testing: before engaging the testing team, the developer tester their own code, 
+    this is called as Unit Testing.
+
+# User Personas: 
+
+# Manual testing - In this kind of testing the tester behaves like the end user
+    and finds the flaws in the software as an end user.
+
+    -He has to prepare the test cases
+    -The test cases are also called as bugs
+    -They are manually  Created test cases
+    -There is a priority value assigned to each of the test cases
+    -What are the user personas and how do they see the application
+
+    
+# 
+Test ID: 
+It is also called as: Issue ID, case iD, Case No.
+
+Naming convention examples:
+ProjectName_ModuleName_Number [ RBT-IM-001]
+ModuleName (short) –CaseID [IM001]
+
+Creating a Test Case Template
+   - Test ID : It is also called as Issue Id, Case ID, Case No
+        - Naming Convention : ProjectName_ModuleName_Number [RBT_IM_001]  
+                                        (or)
+                              ModuleName(Short)_CaseID  [IM001]
+
+   - Issue Description
+   - Expected Output
+   - Actual Output
+   - Reference ID : Can be like Knowledge Article
+   - Defect ID
+   - Cycle 1 - First Round of Testing
+   - Cycle 2 - Second Round of Testing
+   - Comments : Our comments about the product / Application
+   - Tested By : Name of the Tester
+   - Date
