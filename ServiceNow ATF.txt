@@ -298,3 +298,30 @@ Creating a Test Case Template
    - Comments : Our comments about the product / Application
    - Tested By : Name of the Tester
    - Date
+
+
+--> Writing Test Cases is an important task in software testing, software testing job responsibilities
+
+		- Understanding and Analyzing software requirements
+		- Derive Positive and Negative test scenarios
+		- Document Test Cases
+		- Collect Test Data
+		- Execute Test Cases
+		- Analyze Test results
+		- Report defects
+		- Track defects
+		- Re & Regression Testing
+		- Organize & Maintain Software Test resources
+
+   Test Case best practices 
+
+		1. Consider Test Case based on Risk and Priority
+		2. Remember the 80/20 Rule - 20 % of test will cover 80 % of your application
+		3. Make sure your test cases can be completed by others when necessary
+		4. The "Good Enough" test case
+		5. Create Test case like you are running a marathon not a sprint
+		6. List your test before you write them
+		7. Classify Test Case based on Business Scenarios and functionality
+		8. Not too long or too short
+		9. Test drive your tests
+		10. Run your tests regularly to keep them relevant
