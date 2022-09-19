@@ -325,3 +325,63 @@ Creating a Test Case Template
 		8. Not too long or too short
 		9. Test drive your tests
 		10. Run your tests regularly to keep them relevant
+
+
+##################################
+Types of Testing
+1. Functional Testing: 
+    - Systme Testing
+    - Regression Testing
+    - Smoke Testing
+    - Sanity Testing
+    - Unit Testing
+    - Integration Testing 
+    - Database Testing
+    - WhiteBox Testing / Open Box Testing and Transperent Testing
+    - BlackBox Testing
+    - Gray Box Testing 
+    - Monkey Testing 
+    - AdHoc Testing
+    - componet Testing
+    - GUI Testing 
+    - End to End Testing
+    - UAT
+        -Alpha
+        -Beta 
+    - Acceptance Testing 
+    - Happy Path Testing 
+    - Negative Testing
+
+2. Non Functional testing
+    a. performance testing
+        - Load Testing
+        - Stress testing
+        - Volume Testing
+    b. Security Testing
+        - Penetration Testing
+        - SQL Injection 
+        - Vulnerability Testing
+        - Authentication Testing
+        - Username/ password
+
+######### WhiteBox Testing ############
+
+This is a technique in which we check 
+    - Internal Structure
+    - Design
+    - Coding are tested
+    
+This type of testing is done by developers/coders
+What do we verify in this type of testing?
+    - Internal Security 
+    - Broken Or Poorly Structured
+    - The Flow
+
+What are the techniqus of WhiteBox Testing?
+    - Statement Coverage:
+        Coverage = (Number of Statement Exercised/Total Number of Statments) *100
+    - Branch Coverage
+    - Condition Coverage: All the conditions should be covered
+    
+
+
