@@ -382,6 +382,98 @@ What are the techniqus of WhiteBox Testing?
         Coverage = (Number of Statement Exercised/Total Number of Statments) *100
     - Branch Coverage
     - Condition Coverage: All the conditions should be covered
-    
+
+####################### BlackBox testing ############
+BBT is a software Testing method in which the functionalities of software are tested
+No need of having Knowledge of internal code structure or Design
+This is performed by Testers
+
+Black Box techniques
+1. Equivalence class testing:
+    Used to minimise number of test casses while ensurng optimal test cases
+    also can be thought of as optimising 
+
+2. Boundary Value Testing(BVA - Boundary Value analysis):
+    Used to check if the certain range of values are covered or not
+
+3. Descision Table Testing:
+    It puts causes and there effect in a Matrix
+
+4. State Transition Testing
+
+############ Gray Box Testing ########
+It is a Software Testing to set a s/w product or application with partial Knowledge of internal structure 
+of the application
+
+    - It provides combined benefits of both BBT and WhiteBox
+    - It combines the input of developer and testers, this improves the overall quality of software
+    - It Reduces the overhead of long process of testing functional and non-functional Types
+    - 
+
+Techniques of Gray Box Testing
+    -Matrix Testing
+    -Regression  Testing 
+    -Pattern Testing 
+    -orthogonal Array Testing
 
 
+Diffrence Between WhiteBox V/S BlackBox V/S GrayBox
+
+S. No.	Black Box Testing |||	Gray Box Testing ||| White Box Testing
+
+1.	This testing has Low granularity.|||	
+    This testing has a medium level of granularity.	|||
+    This testing has high-level granularity.
+
+2.	It is done by end-users and also done by the tester, developers.	
+    It is done by end-users (called user acceptance testing), also done by testers and developers.	
+    It is generally done by testers and developers.
+
+3.	Here, Internals are not required to be known.	
+    Here, Internals relevant to the testing is known.	
+    Here, the Internal code of the application and database is known.
+
+4.	It is likely to be less exhaustive than the other two.	
+    It is kind of in-between.	
+    Most exhaustive among all three.
+
+5.	It is based on requirements, and test cases on the functional specifications, as the internals are not known.	
+    It provides better variety/depth in test cases on account of high-level knowledge of the internals.	
+    It has the ability to exercise code with a relevant variety of data.
+
+6.	If used algorithm testing, is not suited best for that.	
+    If used algorithm testing is also not suited best for that.	
+    If used algorithm testing, it is suited best for that.
+
+7.	It is suited for functional or business testing.	
+    It is suited for functional or business domain testing deeply.	
+    It is used for all.
+
+8.	This testing involves validating the outputs for given inputs, the application being tested as a black-box technique.	
+    Herein, we have a better variety of inputs and the ability to extract test results from the database for comparison with expected results.	
+    It involves structural testing and enables logic coverage, decisions, etc. within the code.
+
+9.	This is also called Opaque-box testing, Closed-box testing, input-output testing, Data-driven testing, Behavioral, Functional testing	
+    This is also called translucent box testing	
+    This is also called Glass-box testing, Clear-box testing, Design-based testing, Logic-based testing, Structural testing, Code-based testing.
+
+10.	#Black-box test design techniques-
+    Decision table testing
+    All-pairs testing
+    Equivalence partitioning
+    Error guessing
+
+    #Gray box test design techniques-
+    Matrix testing
+    Regression testing 
+    Pattern testing
+    Orthogonal Array Testing
+
+    #White-box test design techniques-
+    Control flow testing
+    Data flow testing
+    Branch testing
+
+11.	Black Box testing provides resilience and security against viral attacks. 	
+    Gray Box testing does not provide resilience and security against viral attacks. 	
+    White Box testing does not provide resilience and security against viral attacks.
