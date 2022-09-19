@@ -427,7 +427,7 @@ S. No.	Black Box Testing |||	Gray Box Testing ||| White Box Testing
 
 2.	It is done by end-users and also done by the tester, developers.	
     It is done by end-users (called user acceptance testing), also done by testers and developers.	
-    It is generally done by testers and developers.
+    It is generally done by developers.
 
 3.	Here, Internals are not required to be known.	
     Here, Internals relevant to the testing is known.	
@@ -449,13 +449,21 @@ S. No.	Black Box Testing |||	Gray Box Testing ||| White Box Testing
     It is suited for functional or business domain testing deeply.	
     It is used for all.
 
-8.	This testing involves validating the outputs for given inputs, the application being tested as a black-box technique.	
-    Herein, we have a better variety of inputs and the ability to extract test results from the database for comparison with expected results.	
+8.	This testing involves validating the outputs for given inputs, 
+    the application being tested as a black-box technique.	
+    
+    Herein, we have a better variety of inputs and the ability to extract test results 
+    from the database for comparison with expected results.	
+    
     It involves structural testing and enables logic coverage, decisions, etc. within the code.
 
-9.	This is also called Opaque-box testing, Closed-box testing, input-output testing, Data-driven testing, Behavioral, Functional testing	
+9.	This is also called Opaque-box testing, Closed-box testing, input-output testing, 
+    Data-driven testing, Behavioral, Functional testing	
+    
     This is also called translucent box testing	
-    This is also called Glass-box testing, Clear-box testing, Design-based testing, Logic-based testing, Structural testing, Code-based testing.
+    
+    This is also called Glass-box testing, Clear-box testing, Design-based testing, 
+    Logic-based testing, Structural testing, Code-based testing.
 
 10.	#Black-box test design techniques-
     Decision table testing
@@ -477,3 +485,6 @@ S. No.	Black Box Testing |||	Gray Box Testing ||| White Box Testing
 11.	Black Box testing provides resilience and security against viral attacks. 	
     Gray Box testing does not provide resilience and security against viral attacks. 	
     White Box testing does not provide resilience and security against viral attacks.
+
+
+    ############ 
