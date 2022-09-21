@@ -488,3 +488,40 @@ S. No.	Black Box Testing |||	Gray Box Testing ||| White Box Testing
 
 
     ############ 
+
+    create the test case for P1 incidents
+    
+    response    
+    resolution
+    and notifications
+
+
+##############
+Notifications:
+Assign to groups
+
+
+############# 
+
+# Benefits of using ATF 
+    - Quicker go to market
+    - 80% decrease in time and cost
+    - Reduced man hour from 5days to 2 hours
+    - Reports with real time screenshots
+    - Creation of future test purpose template
+    - improves the quality of the product
+    - Simpler test Automation process
+
+# Functions and Operations of ATF
+    - Creating and Running tests
+    - Adding and deleting steps
+    - altering the order of Execution
+    - Creating and running test suites
+    - recording the details and enabling to view them along with screenshots
+    - Transiting values from one step to next step
+    - Changing the administarations setting
+    - impersonate the user
+    - open a new form like the catlog task form 
+    - set field values on the forms like assigned to and Description or add field
+    - 
+# 
