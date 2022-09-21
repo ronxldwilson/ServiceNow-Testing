@@ -501,7 +501,18 @@ Notifications:
 Assign to groups
 
 
-############# 
+################################ ATF ###############################
+
+# What is Test framework?
+
+It is a set of guidelines or rules used for creating and designing test case.
+A framework is comprised of a combination of practices and tools that are designed 
+to help QA professionals test more efficeintly
+
+# Objectives
+    To fasten up your digital transformation and perform quicker upgrades by automating resource 
+    intensive manual testing, implementing ServiceNow’s ATF is necessary. You can also gain 
+    immediate visibility in the test results with lesser risks and quicker remediation.
 
 # Benefits of using ATF 
     - Quicker go to market
@@ -523,5 +534,100 @@ Assign to groups
     - impersonate the user
     - open a new form like the catlog task form 
     - set field values on the forms like assigned to and Description or add field
+    - submit the current form and confirm to server(submit the form)
+
+# ROI of ATF
+    - Cost cut in the manual testing part
+    - Risk is reduced in terms of budget overruns
+    - Reduced chances of delays in testing
     - 
-# 
+
+# Limitation of ATF
+    -   There needs to be test step configuration 
+    -   It does not have test Manager and Tester roles 
+
+# Evolution of ATF
+    - ATF was first released in ISTANBUL release 
+    -
+
+# Plugins (which work like ATF)
+
+
+## Types of Automated Testing framework
+There are six common types of test automation frameworks, each with their own architecture and differing benefits and disadvantages.
+1. Linear Automation Framework
+2. Modular Based Testing Framework
+3. Library Architecture Testing Framework
+4. Data-Driven Framework
+5. Keyword-Driven Framework
+6. Hybrid Testing Framework
+
+##Linear Automation Framework
+    - AKA also referred to as a record-and-playback framework, 
+    - Everything is written in sequential order 
+    - Each step such as navigation, user input, or checkpoints, and then plays the script back 
+        automatically to conduct the test.
+
+-> Advantages   
+    - No custom coding required
+    - Fastest way to generate test scripts
+    - Test workflow is simple and sequential
+
+-> Disadvantages
+    - Scripts developed using this are NOT REUSABLE
+    - Maintainance is difficult
+
+##Modular Based Testing Framework
+    - The app is divided into many modules
+    - Each is tested in isolation 
+-> Advantages
+    - If any changes are made to the application only the corresponding modules test case needs to be fixed
+    - Creating test cases takes less effort because test scripts for different modules can be reused.
+-> Disadvantages
+    -Programming knowledge is required to set up the framework.
+    -Data is hard Coded into the test Scripts
+
+##Library Architecture Testing Framework
+    - This is based on modular framework but has additional benefits
+    - nstead of dividing the application under test into the various scripts that need to be run, 
+        similar tasks within the scripts are identified and later grouped by function
+-> Advantages
+    -utilizing this architecture will lead to a high level of modularization
+    - higher degree of reusability because there is a library of common 
+        functions that can be used by multiple test scripts.
+-> Disadvantages
+    -Test data is still hard coded into the script.
+    -Technical expertise is needed to write and analyze the common functions within the test scripts.
+    -Test scripts take more time to develop.
+
+##Data-Driven Framework
+    -It separates the test data from script logic. 
+    -Test data is stored externally.
+    - It allows the use of  external data source, such as Excel Spreadsheets, 
+        Text Files, CSV files, SQL Tables, or ODBC repositories.
+-> Advantages
+    -  Tests can be executed with multiple data sets.
+    -  Multiple scenarios can be tested quickly by varying the Data
+    -  Hard-coding data can be avoided  
+
+-> Disadvantages
+    - Need of need a highly-experienced tester who is proficient in various programming languages to 
+    - properly utilize this framework design. 
+    - Setting up a data-driven framework takes a significant amount of time.
+
+##Keyword-Driven Framework
+    - each function of the application under test is laid out in a table with a series of instructions 
+    in consecutive order for each test that needs to be run. 
+    - Keywords are also stored in an external data table 
+-> Advantages
+    -Minimal scripting knowledge is needed.
+    A single keyword can be used across multiple test scripts, so the code is reusable.
+Test scripts can be built independent of the application under test.
+
+-> Disadvantages
+    -The initial cost of setting up the framework is high.
+    -Keywords can be a hassle to maintain when scaling a test operation. 
+
+##Hybrid Testing Framework
+    A hybrid framework is a combination of any of the previously mentioned frameworks set up to 
+    leverage the advantages of some and mitigate the weaknesses of others.
